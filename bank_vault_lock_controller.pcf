@@ -1,0 +1,29 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Fri Sep 11 18:48:31 2026
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "clk" LOCATE = SITE "P87" LEVEL 1;
+COMP "Unlock" LOCATE = SITE "P94" LEVEL 1;
+COMP "LED<0>" LOCATE = SITE "P5" LEVEL 1;
+COMP "LED<1>" LOCATE = SITE "P6" LEVEL 1;
+COMP "LED<2>" LOCATE = SITE "P8" LEVEL 1;
+COMP "LED<3>" LOCATE = SITE "P9" LEVEL 1;
+COMP "LED<4>" LOCATE = SITE "P11" LEVEL 1;
+COMP "LED<5>" LOCATE = SITE "P12" LEVEL 1;
+COMP "LED<6>" LOCATE = SITE "P15" LEVEL 1;
+COMP "LED<7>" LOCATE = SITE "P16" LEVEL 1;
+COMP "Open" LOCATE = SITE "P80" LEVEL 1;
+COMP "P" LOCATE = SITE "P81" LEVEL 1;
+COMP "VP<0>" LOCATE = SITE "P83" LEVEL 1;
+COMP "VP<1>" LOCATE = SITE "P82" LEVEL 1;
+TIMEGRP clk_12mhz = BEL "U0/clock_half" BEL "U0/count_0" BEL "U0/count_1" BEL
+        "U0/count_2" BEL "U0/count_3" BEL "U0/count_4" BEL "U0/count_5" BEL
+        "U0/count_6" BEL "U0/count_7" BEL "U0/count_8" BEL "U0/count_9" BEL
+        "U0/count_10" BEL "U0/count_11" BEL "U0/count_12" BEL "U0/count_13"
+        BEL "U0/count_14" BEL "U0/count_15" BEL "U0/count_16" BEL
+        "U0/count_17" BEL "U0/count_18" BEL "U0/count_19" BEL "U0/count_20"
+        BEL "U0/count_21" BEL "U0/count_22" BEL "clk_BUFGP/BUFG";
+TS_clk_12mhz = PERIOD TIMEGRP "clk_12mhz" 83.33 ns HIGH 50%;
+SCHEMATIC END;
+

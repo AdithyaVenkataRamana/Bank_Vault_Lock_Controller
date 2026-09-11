@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\sgpma\Downloads\Projects\Bank_Vault_Lock_Controller\bank_vault_lock_controller.ncd
+OUTFILE=C:\Users\sgpma\Downloads\Projects\Bank_Vault_Lock_Controller\bank_vault_lock_controller.bit
+FAMILY=Spartan6
+PART=xc6slx9-3tqg144
+WORKINGDIR=C:\Users\sgpma\Downloads\Projects\Bank_Vault_Lock_Controller
+LICENSE=WebPack
+USER_INFO=213131587_0_0_133

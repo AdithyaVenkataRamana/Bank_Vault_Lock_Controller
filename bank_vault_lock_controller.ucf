@@ -1,0 +1,38 @@
+# =========================================================
+# Bank Vault Lock Controller - Spartan-6 Mini Board
+# FPGA: XC6SLX9-TQG144   Board: SP6-MINI / MINI-SP6-FPGA-V1
+# Onboard clock used: 12 MHz oscillator (P87)
+# =========================================================
+
+# -------------------------
+# 12 MHz onboard clock
+# -------------------------
+NET "clk" LOC = P87 | IOSTANDARD = LVCMOS33;
+NET "clk" TNM_NET = clk_12mhz;
+TIMESPEC TS_clk_12mhz = PERIOD "clk_12mhz" 83.33 ns HIGH 50%;
+
+# -------------------------
+# Switches
+# Open = SW1, P = SW2, VP[1] = SW3, VP[0] = SW4
+# -------------------------
+NET "Open"  LOC = P80 | IOSTANDARD = LVCMOS33;
+NET "P"     LOC = P81 | IOSTANDARD = LVCMOS33;
+NET "VP[1]" LOC = P82 | IOSTANDARD = LVCMOS33;
+NET "VP[0]" LOC = P83 | IOSTANDARD = LVCMOS33;
+
+# -------------------------
+# 8 LEDs (all active HIGH per board manual)
+# -------------------------
+NET "LED[7]" LOC = P16 | IOSTANDARD = LVCMOS33;
+NET "LED[6]" LOC = P15 | IOSTANDARD = LVCMOS33;
+NET "LED[5]" LOC = P12 | IOSTANDARD = LVCMOS33;
+NET "LED[4]" LOC = P11 | IOSTANDARD = LVCMOS33;
+NET "LED[3]" LOC = P9  | IOSTANDARD = LVCMOS33;
+NET "LED[2]" LOC = P8  | IOSTANDARD = LVCMOS33;
+NET "LED[1]" LOC = P6  | IOSTANDARD = LVCMOS33;
+NET "LED[0]" LOC = P5  | IOSTANDARD = LVCMOS33;
+
+# -------------------------
+# Unlock indicator -> RGB LED, Green channel
+# -------------------------
+NET "Unlock" LOC = P94 | IOSTANDARD = LVCMOS33;

@@ -1,0 +1,53 @@
+xst -intstyle ise -ifn "C:/Users/sgpma/Downloads/Projects/Bank_Vault_Lock_Controller/bank_vault_lock_controller.xst" -ofn "C:/Users/sgpma/Downloads/Projects/Bank_Vault_Lock_Controller/bank_vault_lock_controller.syr" 
+xst -intstyle ise -ifn "C:/Users/sgpma/Downloads/Projects/Bank_Vault_Lock_Controller/bank_vault_lock_controller.xst" -ofn "C:/Users/sgpma/Downloads/Projects/Bank_Vault_Lock_Controller/bank_vault_lock_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc bank_vault_lock_controller.ucf -p xc6slx9-tqg144-3 bank_vault_lock_controller.ngc bank_vault_lock_controller.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o bank_vault_lock_controller_map.ncd bank_vault_lock_controller.ngd bank_vault_lock_controller.pcf 
+par -w -intstyle ise -ol high -mt off bank_vault_lock_controller_map.ncd bank_vault_lock_controller.ncd bank_vault_lock_controller.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml bank_vault_lock_controller.twx bank_vault_lock_controller.ncd -o bank_vault_lock_controller.twr bank_vault_lock_controller.pcf -ucf bank_vault_lock_controller.ucf 
+bitgen -intstyle ise -f bank_vault_lock_controller.ut bank_vault_lock_controller.ncd 
+xst -intstyle ise -ifn "C:/Users/sgpma/Downloads/Projects/Bank_Vault_Lock_Controller/bank_vault_lock_controller.xst" -ofn "C:/Users/sgpma/Downloads/Projects/Bank_Vault_Lock_Controller/bank_vault_lock_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc bank_vault_lock_controller.ucf -p xc6slx9-tqg144-3 bank_vault_lock_controller.ngc bank_vault_lock_controller.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o bank_vault_lock_controller_map.ncd bank_vault_lock_controller.ngd bank_vault_lock_controller.pcf 
+par -w -intstyle ise -ol high -mt off bank_vault_lock_controller_map.ncd bank_vault_lock_controller.ncd bank_vault_lock_controller.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml bank_vault_lock_controller.twx bank_vault_lock_controller.ncd -o bank_vault_lock_controller.twr bank_vault_lock_controller.pcf -ucf bank_vault_lock_controller.ucf 
+bitgen -intstyle ise -f bank_vault_lock_controller.ut bank_vault_lock_controller.ncd 
+xst -intstyle ise -ifn "C:/Users/sgpma/Downloads/Projects/Bank_Vault_Lock_Controller/bank_vault_lock_controller.xst" -ofn "C:/Users/sgpma/Downloads/Projects/Bank_Vault_Lock_Controller/bank_vault_lock_controller.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim bank_vault_lock_controller.ngc bank_vault_lock_controller_synthesis.v 
+xst -intstyle ise -ifn "C:/Users/sgpma/Downloads/Projects/Bank_Vault_Lock_Controller/bank_vault_lock_controller.xst" -ofn "C:/Users/sgpma/Downloads/Projects/Bank_Vault_Lock_Controller/bank_vault_lock_controller.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim bank_vault_lock_controller.ngc bank_vault_lock_controller_synthesis.v 
+xst -intstyle ise -ifn "C:/Users/sgpma/Downloads/Projects/Bank_Vault_Lock_Controller/bank_vault_lock_controller.xst" -ofn "C:/Users/sgpma/Downloads/Projects/Bank_Vault_Lock_Controller/bank_vault_lock_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-3 bank_vault_lock_controller.ngc bank_vault_lock_controller.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o bank_vault_lock_controller_map.ncd bank_vault_lock_controller.ngd bank_vault_lock_controller.pcf 
+par -w -intstyle ise -ol high -mt off bank_vault_lock_controller_map.ncd bank_vault_lock_controller.ncd bank_vault_lock_controller.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml bank_vault_lock_controller.twx bank_vault_lock_controller.ncd -o bank_vault_lock_controller.twr bank_vault_lock_controller.pcf 
+bitgen -intstyle ise -f bank_vault_lock_controller.ut bank_vault_lock_controller.ncd 
+xst -intstyle ise -ifn "C:/Users/sgpma/Downloads/Projects/Bank_Vault_Lock_Controller/bank_vault_lock_controller.xst" -ofn "C:/Users/sgpma/Downloads/Projects/Bank_Vault_Lock_Controller/bank_vault_lock_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-3 bank_vault_lock_controller.ngc bank_vault_lock_controller.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o bank_vault_lock_controller_map.ncd bank_vault_lock_controller.ngd bank_vault_lock_controller.pcf 
+par -w -intstyle ise -ol high -mt off bank_vault_lock_controller_map.ncd bank_vault_lock_controller.ncd bank_vault_lock_controller.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml bank_vault_lock_controller.twx bank_vault_lock_controller.ncd -o bank_vault_lock_controller.twr bank_vault_lock_controller.pcf 
+bitgen -intstyle ise -f bank_vault_lock_controller.ut bank_vault_lock_controller.ncd 
+xst -intstyle ise -ifn "C:/Users/sgpma/Downloads/Projects/Bank_Vault_Lock_Controller/bank_vault_lock_controller.xst" -ofn "C:/Users/sgpma/Downloads/Projects/Bank_Vault_Lock_Controller/bank_vault_lock_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-3 bank_vault_lock_controller.ngc bank_vault_lock_controller.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o bank_vault_lock_controller_map.ncd bank_vault_lock_controller.ngd bank_vault_lock_controller.pcf 
+par -w -intstyle ise -ol high -mt off bank_vault_lock_controller_map.ncd bank_vault_lock_controller.ncd bank_vault_lock_controller.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml bank_vault_lock_controller.twx bank_vault_lock_controller.ncd -o bank_vault_lock_controller.twr bank_vault_lock_controller.pcf 
+bitgen -intstyle ise -f bank_vault_lock_controller.ut bank_vault_lock_controller.ncd 
+xst -intstyle ise -ifn "C:/Users/sgpma/Downloads/Projects/Bank_Vault_Lock_Controller/bank_vault_lock_controller.xst" -ofn "C:/Users/sgpma/Downloads/Projects/Bank_Vault_Lock_Controller/bank_vault_lock_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-3 bank_vault_lock_controller.ngc bank_vault_lock_controller.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o bank_vault_lock_controller_map.ncd bank_vault_lock_controller.ngd bank_vault_lock_controller.pcf 
+par -w -intstyle ise -ol high -mt off bank_vault_lock_controller_map.ncd bank_vault_lock_controller.ncd bank_vault_lock_controller.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml bank_vault_lock_controller.twx bank_vault_lock_controller.ncd -o bank_vault_lock_controller.twr bank_vault_lock_controller.pcf 
+bitgen -intstyle ise -f bank_vault_lock_controller.ut bank_vault_lock_controller.ncd 
+xst -intstyle ise -ifn "C:/Users/sgpma/Downloads/Projects/Bank_Vault_Lock_Controller/bank_vault_lock_controller.xst" -ofn "C:/Users/sgpma/Downloads/Projects/Bank_Vault_Lock_Controller/bank_vault_lock_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-3 bank_vault_lock_controller.ngc bank_vault_lock_controller.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o bank_vault_lock_controller_map.ncd bank_vault_lock_controller.ngd bank_vault_lock_controller.pcf 
+par -w -intstyle ise -ol high -mt off bank_vault_lock_controller_map.ncd bank_vault_lock_controller.ncd bank_vault_lock_controller.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml bank_vault_lock_controller.twx bank_vault_lock_controller.ncd -o bank_vault_lock_controller.twr bank_vault_lock_controller.pcf 
+bitgen -intstyle ise -f bank_vault_lock_controller.ut bank_vault_lock_controller.ncd 
+xst -intstyle ise -ifn "C:/Users/sgpma/Downloads/Projects/Bank_Vault_Lock_Controller/bank_vault_lock_controller.xst" -ofn "C:/Users/sgpma/Downloads/Projects/Bank_Vault_Lock_Controller/bank_vault_lock_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc bank_vault_lock_controller.ucf -p xc6slx9-tqg144-3 bank_vault_lock_controller.ngc bank_vault_lock_controller.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o bank_vault_lock_controller_map.ncd bank_vault_lock_controller.ngd bank_vault_lock_controller.pcf 
+par -w -intstyle ise -ol high -mt off bank_vault_lock_controller_map.ncd bank_vault_lock_controller.ncd bank_vault_lock_controller.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml bank_vault_lock_controller.twx bank_vault_lock_controller.ncd -o bank_vault_lock_controller.twr bank_vault_lock_controller.pcf -ucf bank_vault_lock_controller.ucf 
+bitgen -intstyle ise -f bank_vault_lock_controller.ut bank_vault_lock_controller.ncd 
