@@ -13,4 +13,4 @@ Open: Vault open status output
 
 The controller evaluates the input conditions and activates the Open output when the required access condition is satisfied.
 
-![](https://github.com/user-attachments/assets/31509280-f15e-4dc3-a9bb-78d4db7c0e76)
+<img width="1280" height="1193" alt="Image" src="https://github.com/user-attachments/assets/eb39babd-e4fc-4f49-89e0-4bcbb74f122e" />
